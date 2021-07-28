@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="@drawable/bg_blue">
+
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:background="@drawable/back"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+       <LinearLayout
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+           <TextView
+               android:id="@+id/text_title"
+               android:layout_marginTop="0dp"
+               android:layout_gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="30dp"
+               android:text="Pilih menu belajar  "
+               android:layout_marginBottom="@android:dimen/app_icon_size"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_marginBottom="@android:dimen/app_icon_size">
+               <Button
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:textSize="50dp"
+                   android:textAllCaps="false"
+                   android:id="@+id/menu_angka"
+                   android:background="@drawable/bg_angka"
+                   android:layout_marginRight="10dp"/>
+               <Button
+                   android:textSize="50dp"
+                   android:textAllCaps="false"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:id="@+id/menu_huruf"
+                   android:background="@drawable/bg_huruf"/>
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_marginBottom="@android:dimen/app_icon_size">
+               <Button
+                   android:textSize="50dp"
+                   android:textAllCaps="false"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:id="@+id/menu_warna"
+                   android:background="@drawable/bg_warna"
+                   android:layout_marginRight="10dp"/>
+               <Button
+                   android:textSize="50dp"
+                   android:textAllCaps="false"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:id="@+id/menu_hewan"
+                   android:background="@drawable/bg_hewan"/>
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_marginBottom="@android:dimen/app_icon_size">
+               <Button
+                   android:textSize="50dp"
+                   android:textAllCaps="false"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:id="@+id/menu_buah"
+                   android:background="@drawable/bg_buah"
+                   android:layout_marginRight="10dp"/>
+               <Button
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:id="@+id/menu1"
+                   android:background="@drawable/blank"/>
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:orientation="horizontal" />
+
+
+
+
+
+</LinearLayout>

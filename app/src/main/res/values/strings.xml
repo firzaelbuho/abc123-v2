@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ABC 123 - Ayo Belajar</string>
+    <string name="angka">angka</string>
+    <string name="huruf">huruf</string>
+    <string name="warna">warna</string>
+    <string name="hewan">hewan</string>
+    <string name="buah">buah</string>
+    <string name="adBannerTestplacholder">h</string>
+    <string name="adBanner">ca-app-pub-8201627220488781/4810091599</string>
+    <string name="adBannerTest">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

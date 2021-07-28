@@ -1,0 +1,78 @@
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DialogPopup"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blank">
+
+    <FrameLayout
+        android:padding="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/bg_btn"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="120dp"
+                android:gravity="center"
+                android:text=""
+                android:id="@+id/img"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:background="@drawable/item_blue"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:text="ini nama kupu"
+                    android:layout_marginRight="@android:dimen/app_icon_size"/>
+                <Button
+                    android:layout_width="40dp"
+                    android:id="@+id/playAudio"
+                    android:background="@drawable/ic_speaker"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_cancel"
+            android:id="@+id/close"/>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
+
